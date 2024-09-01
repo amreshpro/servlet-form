@@ -1,0 +1,28 @@
+# Eclipse specific files
+/.settings/
+/.project
+/.classpath
+
+# Java specific files
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven specific files
+/target/
+
+# Gradle specific files
+/.gradle/
+/build/
+
+# Eclipse working directories
+/.metadata/
+/bin/
+/tmp/
+/temp/
+
+# macOS specific files
+.DS_Store
+
+
