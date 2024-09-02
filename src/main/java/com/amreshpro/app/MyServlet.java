@@ -18,5 +18,6 @@ public class MyServlet extends HttpServlet {
         String name = request.getParameter("username");
         PrintWriter out = response.getWriter();
         out.println("Hello " + name + "!");
+        response.sendRedirect("name.jsp");
     }
 }
